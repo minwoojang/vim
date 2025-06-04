@@ -30,19 +30,36 @@ call plug#end()
 nmap <C-n> :NERDTreeToggle<CR>
 
 let g:ycm_python_binary_path = '/usr/bin/python3'
+
 let g:ycm_auto_trigger = 1
+
 set number
+
 set backspace=indent,eol,start
+
 set t_TI=
+
 set t_TE=
+
 set tabstop=4
+
 set shiftwidth=4
+
 set expandtab
+
 set softtabstop=4
+
 set t_8f=
+
 set keyprotocol=
+
 let &term=&term
+
 let g:semshi_enable_insertion = 1
+
 let g:semshi_auto_select = 1
+
 syntax on
+
 colorscheme default
+
